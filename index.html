@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kape Gelly</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times New Roman, sans-serif;
+    background-color: #ffffff;
+    color: #050404;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2e282c;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header .logo {
+    width: 100px; 
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.home {
+    background-color:#64471b;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.home h2 {
+    font-size: 3em;
+}
+
+.home-image {
+    width: 300%;
+    height: auto;
+    max-width: 350px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.menu {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fffeff;
+}
+
+.menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    font-family: Arial, serif;
+    background-color: #eea2af;
+    padding: 20px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size:   
+}
+
+.order-now {
+    font-family: Arial, serif;
+    background-color: #fdbeff;
+    padding: 50px 20px;
+    width: 400px;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.order-now h2 {
+    font-size: 2.0em;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.order-now h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.order-now form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.order-now label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.order-now input[type="text"] {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #150303;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.order-now div {
+    margin-bottom: 10px;
+}
+
+.order-now input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.order-now button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background-color: #fe73cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-now button:hover {
+    background-color: #e55b4a;
+}
+
+footer {
+    background: #f5a0ba;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+</style>
+</head>
+</html>
+   
+    <header>
+        <div class="container">
+            <img src="https://media-hosting.imagekit.io//bcd154850d324579/coffee-cup-logo-template-vector-icon-design.jpg?Expires=1834913948&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ohOv-n8c~X5qPr2P7zSduGot5rWd-ACPizIY-40p3TrhD0GA9MKxRzTZBTK54cD1201yD46Rs77Yrv86Qf2j2xzA7h1QAdlP8TLea37fNkSOsLCsqct6EKl8h9d6T7RETUCfY00GA6iYDy4eW6s5J9nmrFTR4t2XF38O7qRuZ4vc4DnjzDS8HuuWjSmNJG-tk5hPjNZvsaCrKbWYlpcT73y9sdNn~ulYqn9Jm4HsMB2mAgnps38nEftRk~biAMVGYB7rc7QupR-3mRI~vN9ZWCyV2t6WBBcSuPUq-VTfKCmV0nUZOYP32TaLGNUsVPUqvkAEPFsZMi0h9IymQ95ZGQ__" alt="Kape Gelly Logo" class="logo">
+            <h1>Kape Gelly</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#order-now">Order Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+ 
+    <section id="home" class="home">
+        <div class="home-content">
+            <h2>Welcome to Kape Gelly</h2>
+            <p>Find your comfort in every cup.</p>
+            <img src="https://media-hosting.imagekit.io//3bdfa07285634356/OIP%20(2).jpg?Expires=1834914612&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YRWYpNyilpD-Usq~HwCYnJzeOyX0cK4-q7jHlqLYJVPzt4J~YPathqfWpkeSNHtW3ZC-lZJZifJsQn9Adm3BbslDQ3TWDLXdkuhuG9wlCOk7HFnDfoN7gvTLJK8fKHxQ09lPFLIq8i1OubQsvtzeXe7xTwp1FVEiX8rjomy2HVGJNSSdbJ2bFI-8wuibHhOsw81oImJbB46Lop7SpTsRBQ4vUWJ9qoOSjJCCY9KoFRC2MdABoEFEbPKpcH-lhh3IWgzjrN3gRaMjcJr3AH0E4Z3AvJ8fGlyYcf4miBHIpdF8pwYsCu7Rmsrkl82KKyIc0p3s9GTWjXYPrC2SQvETzg__" alt="Coffee Shop Interior" class="home-image">
+        </div>
+    </section>
+
+    
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Kape Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//3906f4a37e5e4239/download.jpg?Expires=1834915224&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=rfKuKbnbFSPqlzbTdI0oTOYyIaTjvE1a0PZmJHVhpBekXEV3xHXBEr~8zd~u7Y8ZXLA0DnFTvuYL9ikutBpbMsGC6mirWb6OHxbyppMkeeT0vZ3qbg0JdIL8xtgNJlwJkRW6obINqt47xE1bVyHNntq39bEx9pRjDCqFEnknHHl5FveBLB0dB0gdOBHmY3kvNsV9aKzGjCBzTGIzC5wQCgVBHJb~~NO1lKQanZU0Y59OPp~pE975lTMq9RNbPX-fvStU39USl4L3UFueKSUaUIU~uLflDBvFzfTCW1jWjJjy9y8s-qnrlMLyPavoVaaRDtrelIxqTh1FUUdYen8wAQ__" alt="Espresso" class="menu-img">
+                    <h3>Espresso</h3>
+                    <p>A strong, rich coffee shot.</p><br>
+                    <span>₱55.00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//651d849bde8a437e/OIP%20(4).jpg?Expires=1834915827&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=UAbSgKzaBbd5qUPDSXDQ0lFSMTVoW5MVRutpkFjOqB7JX7F5JeE5IuqUroDd76Kdpz4ki3hp8jweKOLUYXgmZl190dcchR5PnmBtRsUYRpm87wpt23~4n5ZWLAVzNv61597SRffK38adsBahq7jKtBXRkWc52WGPyGUBZ5o-Ev-0x7rqkI4-exYT2NXwjZ5JHDuhyveuBTgOZ-cjOkojHJgA2l3-H-zepMeg-saVXcz1fZqs1eEpW4oZlcBDPaeVrUOeJDpXfa6HfiNJZbI~bCDkR3BoFVOJePP92T7escHejlbzHbqYS-NECYuhZVewvx7nyAPJaZOSJkxSf2t4hw__" alt="Cappuccino" class="menu-img">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso with steamed milk and foam.</p><br>
+                    <span>₱55.00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//7a5a7a785285482d/latte.jpg?Expires=1834916209&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=L2fdk0QFnAC7958v6VZtMdcTIus3yhXQ0rBv8T-F4C~4FPGN2nuO2jwC0FVH85wql90sSFCgVKrp-HbfYCzQB5XTKhKLUsA0JW5eiXYHhFIgGRXRKk5ScA-~-wXvEPYDi3-hrcIz1SDW-a87kxrKlmlHRhAhY-MLX6ZkI~IMOINqcWJaPNJGvb0XxnmAJIJ00KZUg2x26EYNbTyHGAkdl43sCmvTCE0AxXmrWtGvXODex9icixEs47g71ccEZtjjwwQ1KBGzC5jpOW3MmVk6zSkPjBcGbn8TPtjdIrIXtmAEZGBh9rv6lZ8QKGJ6qSRIdpiU37jDiJvBvyN53TwjRA__" alt="Latte" class="menu-img">
+                    <h3>Latte</h3>
+                    <p>Espresso with steamed milk and a hint of flavor.</p><br>
+                    <span>₱50.00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//82d1b2f4a9b242c8/mochAA.jpg?Expires=1834916125&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=d5fNQN0tiSfImZeekJzMoKD5vc7CQCnOSRTopVQ1tj7wh2XHViWh~vBAyXp8YbW2sGdrW6C8wmfgJQKDQBuRy0NCQxN0~HqGM90JVjzhc9EYvmaQXCufdGU2Ig7gF3EY6C0fpW8VACZEZuctcq6mpf~BEPTyHxGIOVSD~P9jzdaSUj98hr1NI6tKV27DLA11qDEVZN6g-L4uEEes7YfYkFGDCtgMVMxynJLCiRTxIkn0AewRhPzJYHXt~mPJ5Nl7yynh3B86XCcXhrf1oPczay-PJhcLESXShhNDgmClL7P-5qXsoUodrldxGTxrxJvatB23fzAEy0SicyqRqe2FGA__" alt="Mocha" class="menu-img">
+                    <h3>Mocha</h3>
+                    <p>Espresso with chocolate and steamed milk.</p><br>
+                    <span>₱50.00</span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="menu" class="menu">
+        <div class="container">
+            <h2>Iced Kape Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//019463dd759e4228/iced%20coffee.jpg?Expires=1834917210&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vSC1tZ5qIHKqRdmuLJFtuIpOxqp2QSMSuSXLkAtF-H~ytb0n40EV4OvQ6h8~SahpbS6Yy9wXvtlc9~XcLka998ZsYy1GVDYlFL~dHU5e7aDexhKYr6ZNszMqBnu9WJjccyT9kmBc26rHOm2ZLISuOt9api1aLFzy~UH2RlJ-9y-GFc7pl7~NWaf~Mnn3S~4YR9QVi9T8PMH-9Zrxdf1ynX7voxVHrRsyEaowRHJcSuZdpWhBv~GGrxDfRiz2sEcNWaQYCoc67bNgpD-5-ZQ8eppCddpNbvndPEiRDxHI5YjC2am~MEF4U~~HDtTL1cXAgpCMJsPHDFIaRiRF29rCEA__" alt="Iced Kape" class="menu-img">
+                    <h3>Iced Kape</h3>
+                    <p>Regular brewed coffee served over ice.</p><br>
+                    <span>₱45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//e69ea49710db4ea8/iced%20americano.jpg?Expires=1834917289&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=L8CfxmjA2tI~ECZso1wrNoI~fZyS2l7lYEUZkJoGyNl06NtIW4lBw5fwzB8R-fKD7SX0B2-ErdqVjeJqBq5C2kn-XM~5FCVNbwNSy0PVr3K2cyD3hNAIXj-D4S9GVJMoOThgsS4KgVKGKNKNvDO4NGH5YSmN~Q08AfbPBdO75WcW6IvSw6AZJakC6Si3GEwrLvEkPijtMVhS6EPsxWluo1VgucmxGYP2PSs3kf0PAIsc2W53C2fgNgAmrMAZirkVvcxArBrgUvKCqqsPz9ayhQnu75DLi9iuIpK2RfMkjtJvVwNEHhXLSzpPG8DoD7vCiGvA0X9pXBSh3HBOonA4iQ__" alt="Iced Americano" class="menu-img">
+                    <h3>Iced Americano</h3>
+                    <p>Espresso poured over ice and topped with cold water.</p><br>
+                    <span>₱45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//830c40afe4ce4268/ice%20lattte%202.jpg?Expires=1834959896&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GMLpELfnU9kynClppPZSiCZo9yRmAcsA3CBFyZMkKsvqpRsxgyIpZN~6kIaQdITMyZqI1ZoGWGeoXVDq5g2KudkCBJHf4qRbuzX4qbnNNiUgS76SdaeL6y0JGAlGxpGdvVo0FyDf~PVYEOWipTOwAVQi~PYAeeD5su59dH-KA1ljwK9lENuYT9DpAZkbRTpVAJs716UYfNMhB-ioRNTbow9IJ~OzDccdSyyAKCYOCJDUOzQO-C~ku-WIkG~9nZLoMwPHPgBXjFU1gT9tCL3mA8iK5ep-zECz~YkuWRIdl-CNlQP3sOimgBEVSzUydI6GbG07PwHRkKc4ChOHHt6UCQ__" alt="Iced Latte" class="menu-img">
+                    <h3>Iced Latte</h3>
+                    <p>Espresso with cold milk and ice.</p><br>
+                    <span>₱45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//147a5edecfd94c8f/iced%20mocha.jpg?Expires=1834917464&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ESasb6rpbdfdyLn4sWg2IT09Ex9HdwBXEkHNRlBCLXCT-cRQIBcVPti2RTt~fYqhLSMCozEZUSGnfLZqR0LIvYJYVlOUbxO8EXNBFnwbmp-ZK2dSw3HeAYtgEvJ0D2Do0ovovqTzeLXuAdxvyGBeI7dgMuCYUzbcZLfNUCpCPE76gc2JpzZ5h-Sajo2SUjaDcVCe6Q5HJFCMMalVyV~1GRaWJ5SY18CiGIam614dOF1PCKlbe10Ers1mxNiWe9oGpdZLgtOGyP~V~aBqqyUdZ8g07NAUbyK6rcHba4LlTBNG4oMm-eLJdlIi9mFsEvaZWDPzwMRNmGZba5EUwT3IHQ__" alt="Iced Mocha" class="menu-img">
+                    <h3>Iced Mocha</h3>
+                    <p>Espresso, cold milk, chocolate syrup, and ice, topped with whipped cream.</p><br>
+                    <span>₱45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//7c88b3e78b8c45e0/iced%20matcha.jpg?Expires=1834917440&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Jy7dMsEeYrz5wrv76T1BANF45DpINvQ34~qNcNAKD7q4BWk4okCffIicus8k1XLA~CyyTu4vlHupzCqsawZg5NhIoSqdYR~TMqOg8VDfE2IHNmBZy2V1Y5tNnQaqBwvqhvP5OUsfTHM8c7YtG5RWUxZvPgRazlY~wNf9GnKLZMLIstfunqTK1ue4b90go-76CbyWTp3yeKhEoJ-FBsDpn9jLWO7nJRt9bVS-Xo3EAt2Oi-8tgZIQrjNCHasQSfjx5Owqd~JbkVhWAVA1ogcpLS9fyoSNqvEKT0H2j5~zEJLPLTKtmBX-wN412biXYm~O9yIs3RC-7FQdGGTph9KJ-g__" alt="Iced Matcha" class="menu-img">
+                    <h3>Iced Matcha</h3>
+                    <p>Finely ground green tea powder mixed with cold water and served over ice.</p><br>
+                    <span>₱45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//4466d9ec932c47bc/iced%20caramel%20machiato.jpg?Expires=1834917445&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=i6Nb4mybLXYH2PE0AJs3wlK6ciUXr~hIhS3Cz3am8m0nNVAPMay4CLo5wqFt9mCv8wwX~xjBoe3hll330y1aaQk8yVDeGz1SgZUrR0RPP0Q3gmNjEX3g2AVwy6MbqMKnIUkcRAgS6tMrf2EkCdHxw0kSvgZrpY0~LqY7S4u20dvQqk14MtQq3UdpCKNtoh96cetQ7ONrzUV3GdTlHrWU7LI18wWEQOWeRhSW~iiwPgIBbg316QN-i68O-6HOKuRtq-xXO8BfRU4iBc~sL4nBQvgjpT6gTp9x-veyBsQyrDYqKqKUKxXTDhN57nnIdYdGpcs2HDie-i5URsKRYiRunA__" alt="Iced Caramel Macchiato" class="menu-img">
+                    <h3>Iced Caramel Macchiato</h3>
+                    <p>Espresso, cold milk, vanilla syrup, and ice, topped with caramel sauce.</p><br>
+                    <span>₱45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//1c8b82e16b7943cc/iced%20strawberry%20latte.jpg?Expires=1834917451&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=elfbh760PxIESq3NO0m0J9L4tPUXDldnL7L1doHEds6dHUxgXEo5W1NFfmWCZ0P02wTFCG2uA-pGUu5xVnojI5sar~orNcU4-sAMuhrxiZfsHLigQHJTzay12q2cletSXQHu429PVUSVLdlacCr2xc~aZ~lEg2fBgsgiPm1oXAuenZVrk3uOYFbMsBa801wugJftInZovScC9Z8z~TF8ZhcJIAbzywOvvDP5ZCiJGqTx5GhDF2oeMvvCJOELPaK765w0l9FBCwaTmP-OXDAiN8-CAccGTcRCUq0vKX5AkCk7gn92Qir-R9zIM5rpToghor-YCKH4VSnUqSy03ZdOvQ__" alt="Iced Strawberry Latte" class="menu-img">
+                    <h3>Iced Strawberry Latte</h3>
+                    <p>Espresso with cold milk and strawberry syrup, served over ice.</p><br>
+                    <span>₱45</span>
+                </div>
+                    <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//2d96ca9b43ac4a10/iced%20chai%20latte.jpg?Expires=1834918443&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=bdWkIHlP26Dr8PnDiP2GeBC6LsLP~ONqkxmXypUqj4Pwv4oq7bjwK2wbJYGRCuU7MueSwOCAvOT7hFHqv5RngkQtyvg7MX4xQ0xKN2~f88eHaOWo9T8bvGoUWLul2U5DxeGn9NnZrpAx149zR1CAB5AhNDb-LfhQXaWO1Xbb9TzwzYQT5lBZ9is9OnyzkYJzg7yX9ymO7ixX63irEnLwc~0rFim9ISTV2rTCpiWSZVlbsfnj1KhU7WIr1ZtR4VaAHYpYUvuBFq~fdTAqrHyJjYbbSwL69gNpfRIxp8BFKXcM2eOldi8Kvdud9u~syJ~ft1mlCy5xDRMteLGUl4javQ__" alt="Iced Chai LAtte" class="menu-img">
+                    <h3>Iced Chai Latte</h3>
+                    <p>Spiced tea mixed with cold milk and ice for a refreshing twist.</p><br>
+                    <span>₱45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//f65d71cada3b4b1b/iced%20irish%20coffee.jpg?Expires=1834918430&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dx7tIS7hDnRxFNZDMALL8PWw3DfGAlfyTfXYTRcfZXznuLG3xqc~~ujc0VH9LkHiIf~VZIjKmJOomsJgq~QH65oh6kbk4YmcZXhTvZjTEsExme7S-SIdXmOwQqDObiZTq4lWrW-E6vHrZ3QaR-Ft79voqbxZr8PaLpRw2JqagkbpYL7G9D-F8AOHri5VMqyPhl5WOHksD8CNSEAI0oVoj4wbbHVU4q1Ohibta79AluJyf8zWaxLGluJ7Mn2n3DHiomUI1Grv~U9nmMmfskUpLQu9rtwXJkJj0mnj9VpsBlEnpItsw8xDLBrakD-xi9VFdLf2WpWPFU-X~mx0uzzafg__" alt="Iced Irish Kape" class="menu-img">
+                    <h3>Iced Irish Kape</h3>
+                    <p>Iced coffee with Irish cream liqueur (non-alcoholic option available).</p><br>
+                    <span>₱45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//b1b65ad59efb45ae/iced%20kape.jpg?Expires=1834918654&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Zp1SGnj~5nHb6GnTFDyCi84F1cyE8rSispwB4l1lRtf4wam8UyzGr~OlDWABLBKudOqMm8TKD1PCE6Sq6L5c22Qwar-aVqOVHNT8IlXr0yDbJJ5Uj0TOeFOcnS0paCXqKXEDacWZhjO9q4SavTiZofDv~r0ngkYQ3QDhr7~Z3h2i1vzZ3x3T72Z2R0kvbZRFsFJDs31hRrb947vO5TVbKKdGCBVmjWgaZYwz7upPVCZt7MsGFiHbUufjsLWdEdV1fVYASL-xtmfzD~6-90ktVbwul0JOrpRUFOCnc68txfoo9teN9WkhhzS4dtAm7MCv2OnaTyubfeI1~0VusAp-lA__" alt="Iced Kape with Cream" class="menu-img">
+                    <h3>Iced Kape with Cream</h3>
+                    <p>Regular iced coffee topped with a splash of cream for a richer flavor.</p><br>
+                    <span>₱45</span>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="menu">
+        <div class="container">
+        <h2>Milktea Menu</h2>
+        <div class="menu-items">
+                 <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//86c5c76492824a44/taro.jpg?Expires=1834995236&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=D2-IeH032dF5wqPNh0ogT48UZOtElin80Vr09KaQyRQI~TcHs4HU3KwTs8Ip9-7yK8tI5CsnIxKx2gBXh6aicd6fMA25EQNcTlRTpXR7NursQ2ugjuQlRYEQeHVMRKZWhElcLBHlAXHY4NkG2YKp9YVt091IoOhR8gMt1o6fWboVuQ5SB-~QtUkujBw~eTMFXUtT562Vz1iAEVAbhT1P1j7vidQzx-VmkxfT5BtlBDJJIIorh0m80F8fBkBYizWQH2MUWAeMvMKhrCaELvTkzFR1yZd24oa3fBLi~a7DeeVloDeGhYHsuYEAlEfxVd33V1dfUxmQjbSP6RwdumQ7Qw__" alt="Taro Milktea" class="menu-img">
+                    <h3>Taro Milktea</h3>
+                    <p>Made with taro root powder for a creamy and slightly sweet taste.</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//4ba50b6268354df4/sberry%20milktea.jpg?Expires=1834995290&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=kEKupgNKmtmg7fob~IyTK1qfAmS~9FvXZUxREb1jrUNx~7Z-9NR87GPYALMiHs6XYgIPiTvENmj0B3nJE3C6EKvRinzuIpUVCu6vj6heMLJOqpFev~cwARUE0IyBwQhaxRjYLhxbh7wk7gm8uwy9ck6LjayhcHoisV3MiEUPBmd7YX1BCJyz-PL8eSfCsksQgA8Ipfc1GmYVl0eyA5Z50idnMty4StkAshVlkzGAkYmK52bR4E3Vc06PUwq4IN9jaL-ehXVv4yHDnHee6JNh7GZ7-b6SpMul7ymS5Gh3K3jmrYqPpUJCpFAXkLhEUB5mOkk7RpYqTWhYdm6fW3KNhg__" alt="Strawberry Milktea" class="menu-img">
+                    <h3>Strawberry Milktea</h3>
+                    <p>A sweet, fruity mix of strawberries and milktea.</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//17eacff5c1ad41a5/choco%20mtea.jpg?Expires=1834995475&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=cVV7mLiTZ3B~caK5PgdbTTLfTvT877QdgrEsqMkL20dZQ5Dnv6k~c52yXpE0XbJUQYX8EdLfbCtBtV154xw1zbgYKuThjt~9xHHtQXERnkCGaFP2T43etbwCqkT8ULRaZpPahCZ2KjzNp-oDfH01l~Rnf8989JpVuYC31GOYwaG-fXcjxHXnMiA4qUod3NWdxJsEiqHPyqGAj8ahSuZRdeXZXOUiMzfmIRb9x4VgfTE~Xd6h2VEV0L3xuod5NHUq~cZtIytWvF0Mkpmj92WN2LVEPT9KV3d-8sNMjQgQBNGg7NcuN~xk2gF84z0R2ut3083GlfwMM9CZgcUEkZCy8Q__" alt="Chocolate Milktea" class="menu-img">
+                    <h3>Choco Milktea</h3>
+                    <p>A decadent combination of chocolate and milk tea.</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//557be1e01d4b4f8a/okinawa.jpg?Expires=1834995481&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=OJ95fObqdDpEnrV3e8LV0zyi1BligACuoO2gDKcT5QL7hYifpmG43KgnfVNNDKIoweKYMHJYnvqJ-TlxR8c32c7~6RZp8vzzDIZBbbJrrmLt1D-5IAOocmcxP4wvjxeq0uM46ywp3LjG9Aho1WJHtP5niNva4D93~zH-YMWyZ07UJUCjFF~ujGQKGqCxTf7dpaYbumqTviWIIYCkAQQBqW0nIBJ7a6zOFRmkokeYDI0nDcSotx82HeQxjG1QUhfri4dcUCSfMIaJ6-ECheo1eVdn3diZt2Jsj6m5mbp3voDgbSa6PGoz~udzv5P6B0mWJS~ZJMwmUgJdo98cX9NhKw__" alt="Okinawa Milktea" class="menu-img">
+                    <h3>Okinawa Milktea</h3>
+                    <p>Black tea with the sweetness of brown sugar syrup, which is characteristic of Okinawan sugar</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//baf3042e4c01473d/matcha%20mtea.jpg?Expires=1834995487&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=cMnESn9C5YxwvOwvh6ZizXxgVSVq9Ox9sqiP6xZMbRMn6yynvVDhUuMHNFFrS2KxdodA5Ogdx3E7Cs6aevyUKyfMytdkaPrjAXNhDz1L1OD88VyVZ7kSHzh5hO-sTrJc7106rU7b5czy5FGOVCji8rMw95qZbfZuiTa9XWlcshoK2f682YoR3vUBog83kTnzebBIjih9Hb8IMSov4K6GJtCQJoWuBlCx03v9XWs-li5TYm7NOxlXy8NEZ4v1eyN3sQWiNaZcIup52Jr3ozuZmh30KfDQPkp8ycSFJLUwJfamvlulsYrinQKi1H0olIevVgZcXzpe4VEteP3tQvl5dw__" alt="Matcha Milktea" class="menu-img">
+                    <h3>Matcha Milktea</h3>
+                    <p>A Japanese green tea flavor mixed with milk.</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//54768a7929a84c77/manfaa.jpg?Expires=1834996722&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=21BRby35Ecu0O-EzAD4k8dzQPvPP7Hoa2S63hBLIpYFk76EnLIYyYjfoYoI5uBmSfNEyP~7lGOJCFglIc7WciUPH8x5y22kZKMWCYQP17CRCp2HxBSAZErkB3mbmXb1CelVXjNpsQiZh8SdUh7G9Ca4tpAah1A~uPZ-bi0gACLr0nCZhjTBzEGdUukt7ISSyIwMFAIIz3aMF34dI~bg3qLnure5yCa9XZ1Z6gLQmKqTape4727H2lY91rtnXsPixeajHM86tFys~mhQgmnUZbVMR3xpIivtIvNLK~6H750TV5RSRlCUdKxi7lQmZBDw7UVz7fLNMaceCXcVbsBl0gQ__" alt="Mango Milktea" class="menu-img">
+                    <h3>Mango Milktea</h3>
+                    <p>A tropical blend of mango and milktea.</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//6bf9b5f6271b4e6c/wintermelon.jpg?Expires=1834996688&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Abhhxa~uEhtqH4h~TFSWQeF49-Zjz580oLZGoAeyYRY6HHT7gjuJo7KHMAmnZJ2ItoQRfzR7xgd2KGfuDSDhsR5VaMjDs-MgvEX95NYFMlh5pepXu-P6zbWASbmPqpA-kEobzTIGmvVu2pVvW~lalzs2uBQbtGfOQISQqAII1GnCu1JidN3h9oZnp80uXZEEYdXlQOa2BYXGA1jggMOCPKPvBJFWBtRhoC103y-wVeUV1srYYFSRLoANgwPNZos-hpKgHqmwKRYTDWDiNyOlonPUBOvxYKqdGMV40TJ7AW9CWrMmblvXc2p19XlvsNBSWPJQ~Ju0WDpJdvbyObPBfQ__" alt="Cheese Milktea" class="menu-img">
+                    <h3>Cheese Milktea</h3>
+                    <p>Milk tea topped with a salted cream cheese foam.</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//19686ad802cc4544/OIP%20(5).jpg?Expires=1835090064&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zVt7jmLu40J7KtYfjNo2kZTh4PTOL5oM7ssbu4U4RiG7UIwUmdPUOE8wtc9zFV5~XGDXDogx4Q9OZIKTq8C30BJl4S9Zf-2xngGLH~300pNj8lrC-dnAoSbwfRpcTAGY6yK3exAC01zKd1OC6K2xVcSj~isg29n9DwxXPQfMtredzg3Ci5p1Iev~vNJByRK6JJJJ86EIxeWBEPBQLlSvCvSfQeXhRuYpQrHvOexDCca0GL-5tJRQjMV6mWHSyt3oVcld-NHcU-S3dkTG3SheX-HwvEfZbgbQ5Sj6srAjljnQRVxvESEULW6FpD~-YXCNMnANh6DhYqS3MMqb3y3Trg__" alt="Wintermelon Milktea" class="menu-img">
+                    <h3>Wintermelon Milktea</h3>
+                    <p>A refreshing and lightly sweet melon flavored tea.</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//18866a1901994553/taiwanese%20milktea.jpg?Expires=1834996977&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=gB85VGdoktFfVPbyrW6j5VKiwx~CUM1x7-bSZhEgbzu374D7WirUuLKxglHCu7ijUXs4-oJg9KXfHsk7Tx6h-sS86cJLxjuT3yi3dK2LbzeaxbQVFHLsJehYcMiWVUMvzeKgZl0Yhbwu1EH1dhwAotRLJWuZMKalkrBZafN2vUItIzOA4QC5RrIKHwRY~wskibEPDQaIf-lGQhc5Wv2z4PrTQ-afCfbSDs0H6LQ1WaEo8qWSf0oN~laqf7QuUWorlny-quSSd67r75avqUGyM4EHUQCG-k901sNeoZGLVhiO5kKPnWeqjJnO6pjtSWD-Hu0koNUifOJ5qi-QcNat2w__" alt="Taiwanese Milktea" class="menu-img">
+                    <h3>Taiwanese Milktea</h3>
+                    <p>A smooth, sweetened black tea with milk and ice.</p><br>
+                    <span>₱30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://media-hosting.imagekit.io//2f3c102c780949a9/honey%20%20milktea.jpg?Expires=1834997026&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EkdqCJDgcauWPdj8ocxnn9HgMPF7Bf-~vwhLjudZlLEDaN0IRk31EoAjPuE7ZfRho2Qy-9lhO9PMMPtTnRrI~eLQ4aospC5TkZwfsMX7Y7ZDN935kk9zPrKI9v1UiKxidpDyJSp7lvC9sr6IA9WczNEQaUE5OrszcSXCYWwYOshzl8DjaL4L5~hdxxbv1jiic7-gqYHGwDafeQGODUZAYwfzXtrsfst2XNWbHzc-uT040qsAH5OdTJKrNOTcF9~1HvrdDaQ1BEqNF2wiAJiKCLdBTSxytZFZ9vYO5rG6nviSjOLhLxHaTqtByNdZP6ebg8dWno6tdmQrLPn1I8jg1w__" alt="Honey Milktea" class="menu-img">
+                    <h3>Honey Milktea</h3>
+                    <p>Sweetened with honey, giving it a floral and subtle sweetness.</p><br>
+                    <span>₱30</span>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="order-now" class="order-now">
+    <div class="container">
+        <h3>Place your order now!</h3>
+        
+        <form action="#" method="post">
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="address">Exact Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" required>
+
+            <label for="order">Your Order:</label>
+            <input type="text" id="order" name="order" placeholder="Enter what you'd like to order" required>
+
+            <label>Choose Order Size:</label>
+            <div>
+                <input type="checkbox" id="small" name="size" value="small">
+                <label for="small">Small</label>
+            </div>
+            <div>
+                <input type="checkbox" id="medium" name="size" value="medium">
+                <label for="medium">Medium</label>
+            </div>
+            <div>
+                <input type="checkbox" id="large" name="size" value="large">
+                <label for="large">Large</label>
+            </div>
+    
+            <button type="submit">Place Order</button>
+            <p>take note! we only accept cash on delivery.</p>
+        </form>
+    </div>
+    </section>
+    
+
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Kape Gelly, we pride ourselves on offering high-quality coffee and creating a cozy atmosphere for you to enjoy. Where every cup tells a story. Come write yours with us.</p>
+        </div>
+        </section>
+    <br>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Phone Number: 09123456789</p> 
+            <p>Email: kapegelly@gmail.com</p>
+            <p>Facebook Page: Kape Gelly</p>
+
+            
+            
+        </div>
+
+    <footer><p>&copy; 2025 Kape Gelly. All Rights Reserved.</p></footer>
+        </section>
+        </body>
+        </html>
+
+
